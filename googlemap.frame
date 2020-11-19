@@ -1,0 +1,246 @@
+
+<!doctype html>
+<html lang="en"
+      dir="ltr">
+  <head>
+    <title>Google Developers</title>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="iframe" content="framebox">
+    
+    
+    <script nonce="CyAuGZ/rlYnpRnboIaL+wAs3AE9Nyx">
+      (function(){
+        window.framebox=window.framebox||function(){(window.framebox.q=window.framebox.q||[]).push(arguments)};
+        
+        var a={},b=function(){(window.framebox.dq=window.framebox.dq||[]).push(arguments)};
+        ['getUrl','handleLinkClicksInParent','initAutoSize','navigate','pushState','replaceState',
+         'requestQueryAndFragment','sendEvent','updateSize'].forEach(function(x){a[x]=function(){
+          b(x,arguments)}});
+        window.devsite={framebox:{AutoSizeClient:a}};
+      })();
+      
+      (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+        t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+        E.parentNode.insertBefore(t,E);})(window, document, 'script',
+        'https://www.gstatic.com/devrel-devsite/prod/v8ea8343deca3e735c5e491f22b0e2533427dcd1d0302777baea2667771626911/developers/js/app_loader.js', '[1,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v8ea8343deca3e735c5e491f22b0e2533427dcd1d0302777baea2667771626911","https://www.gstatic.com/devrel-devsite/prod/v8ea8343deca3e735c5e491f22b0e2533427dcd1d0302777baea2667771626911/developers","https://developers-dot-devsite-v2-prod.appspot.com",null,1,null,1,null,[1,6,8,12,14,17,21,25,40,50,63,70,75,76,80,87,88,91,92,93,97,98,101,102,103,105,107]]')
+      
+      </script>
+    
+  </head>
+  
+  <body style="height: auto; overflow: hidden; padding: 20px;">
+    <meta name="suppress_site_styles" content="true" /><meta name="auto_height" content="true" /><meta name="auto_width" content="true" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+  defer
+></script>
+<style type="text/css">
+  /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+  #map {
+    height: 100%;
+  }
+
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+<script>
+  "use strict";
+
+  function initMap() {
+    // Styles a map in night mode.
+    var map = new google.maps.Map(document.getElementById("map"), {
+      center: {
+        lat: 40.674,
+        lng: -73.945,
+      },
+      zoom: 12,
+      styles: [
+        {
+          elementType: "geometry",
+          stylers: [
+            {
+              color: "#242f3e",
+            },
+          ],
+        },
+        {
+          elementType: "labels.text.stroke",
+          stylers: [
+            {
+              color: "#242f3e",
+            },
+          ],
+        },
+        {
+          elementType: "labels.text.fill",
+          stylers: [
+            {
+              color: "#746855",
+            },
+          ],
+        },
+        {
+          featureType: "administrative.locality",
+          elementType: "labels.text.fill",
+          stylers: [
+            {
+              color: "#d59563",
+            },
+          ],
+        },
+        {
+          featureType: "poi",
+          elementType: "labels.text.fill",
+          stylers: [
+            {
+              color: "#d59563",
+            },
+          ],
+        },
+        {
+          featureType: "poi.park",
+          elementType: "geometry",
+          stylers: [
+            {
+              color: "#263c3f",
+            },
+          ],
+        },
+        {
+          featureType: "poi.park",
+          elementType: "labels.text.fill",
+          stylers: [
+            {
+              color: "#6b9a76",
+            },
+          ],
+        },
+        {
+          featureType: "road",
+          elementType: "geometry",
+          stylers: [
+            {
+              color: "#38414e",
+            },
+          ],
+        },
+        {
+          featureType: "road",
+          elementType: "geometry.stroke",
+          stylers: [
+            {
+              color: "#212a37",
+            },
+          ],
+        },
+        {
+          featureType: "road",
+          elementType: "labels.text.fill",
+          stylers: [
+            {
+              color: "#9ca5b3",
+            },
+          ],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "geometry",
+          stylers: [
+            {
+              color: "#746855",
+            },
+          ],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "geometry.stroke",
+          stylers: [
+            {
+              color: "#1f2835",
+            },
+          ],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "labels.text.fill",
+          stylers: [
+            {
+              color: "#f3d19c",
+            },
+          ],
+        },
+        {
+          featureType: "transit",
+          elementType: "geometry",
+          stylers: [
+            {
+              color: "#2f3948",
+            },
+          ],
+        },
+        {
+          featureType: "transit.station",
+          elementType: "labels.text.fill",
+          stylers: [
+            {
+              color: "#d59563",
+            },
+          ],
+        },
+        {
+          featureType: "water",
+          elementType: "geometry",
+          stylers: [
+            {
+              color: "#17263c",
+            },
+          ],
+        },
+        {
+          featureType: "water",
+          elementType: "labels.text.fill",
+          stylers: [
+            {
+              color: "#515c6d",
+            },
+          ],
+        },
+        {
+          featureType: "water",
+          elementType: "labels.text.stroke",
+          stylers: [
+            {
+              color: "#17263c",
+            },
+          ],
+        },
+      ],
+    });
+  }
+</script>
+
+<div id="iframe-contents">
+  <div id="map"></div>
+</div>
+
+  
+  
+  <style>
+    #iframe-contents {
+      height: 400px;
+      overflow: auto;
+    }
+  </style>
+  
+  </body>
+</html>

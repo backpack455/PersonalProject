@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #5f687b;
+  color: #fff;
 }
 
 #header .logo img {
@@ -530,7 +530,7 @@ section {
 .featured-services .icon-box {
   padding: 20px;
   color: #5f687b;
-  background: #1D1D1D;
+  background-color: #1D1D1D;
   border-radius: 4px;
   border: 1px solid #1D1D1D;
   transition: 0.3s;
@@ -624,10 +624,10 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid #000;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #1D1D1D;
 }
 
 .services .icon-box .icon {
@@ -663,7 +663,7 @@ section {
 }
 
 .services .icon-box:hover {
-  border-color: #eaecef;
+  border-color: #FF5349;
 }
 
 .services .icon-box:hover h4 a {
@@ -713,7 +713,7 @@ section {
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.9);
+  background: #1d1d11;
   padding: 15px;
 }
 
@@ -934,7 +934,7 @@ section {
   border-bottom: 3px solid #FF5349;
   padding: 30px;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: #1d1d1d;
 }
 
 .contact .info i {
@@ -992,7 +992,7 @@ section {
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #FF5349;
-  color: #fff;
+  color: #1d1d1d;
 }
 
 .contact .php-email-form {
@@ -1000,7 +1000,7 @@ section {
   border-top: 3px solid #FF5349;
   border-bottom: 3px solid #FF5349;
   padding: 30px;
-  background-color: #f9f9fa;
+  background-color: #1d1d1d;
 }
 
 .contact .php-email-form .form-group {
