@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #5f687b;
+  color: #fff;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -218,9 +218,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #206bfb;
+  background: #FF5349;
   color: #fff;
-  border-color: #206bfb;
+  background: #FF5349;
 }
 
 @media (max-width: 768px) {
@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #949cac;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #206bfb;
+  background: #FF6000;
   box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
 }
 
@@ -735,7 +735,7 @@ section {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #206bfb;
+  color: #ff5349;
   transition: 0.3s;
 }
 
@@ -870,8 +870,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #206bfb;
-  border-color: #206bfb;
+  background: #1d1d1d;
+  border-color: #1d1d1d;
 }
 
 /*--------------------------------------------------------------
@@ -881,7 +881,7 @@ section {
   text-align: center;
   margin-bottom: 20px;
   padding: 30px 20px;
-  background: #fff;
+  background: #1d1d1d;
 }
 
 .team .member img {
@@ -1005,6 +1005,8 @@ section {
 
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
+
+  color: #949cac;
 }
 
 .contact .php-email-form .validate {
