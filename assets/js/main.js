@@ -154,6 +154,10 @@
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item'
     });
+    
+      portfolioIsotope.isotope({
+        filter: $(this).data('filter')
+      });
 
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
